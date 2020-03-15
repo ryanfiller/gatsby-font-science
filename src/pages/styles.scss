@@ -1,0 +1,26 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100w;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background: rebeccapurple;
+  color: white;
+
+  h1 {
+    text-align: center;
+    margin: 0;
+    font-size: calc(1.5rem + 2.5vw + 2vh);
+
+    span {
+      font-size: 1em;
+      display: inline-block;
+      margin: 1rem;
+    }
+  }
+}
