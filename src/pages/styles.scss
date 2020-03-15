@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Science Gothic';
+  src: url('../../static/ScienceGothicVF.ttf');
+}
+
 body,
 html {
   margin: 0;
@@ -13,6 +18,7 @@ html {
   color: white;
 
   h1 {
+    font-family: 'Science Gothic';
     text-align: center;
     margin: 0;
     font-size: calc(1.5rem + 2.5vw + 2vh);
