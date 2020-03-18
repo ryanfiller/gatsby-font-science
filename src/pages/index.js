@@ -8,7 +8,7 @@ const IndexPage = () => (
   <>
    <Helmet>
       <link
-        rel='preconnect'
+        rel='prerender'
         as='font'
         href={Font}
         type='font/ttf'
