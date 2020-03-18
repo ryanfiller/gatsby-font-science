@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import './styles.scss'
-import Font from '../fonts/ScienceGothicVF.ttf'
+import Font from '../../static/fonts/ScienceGothicVF.ttf'
 
 const IndexPage = () => (
   <>
