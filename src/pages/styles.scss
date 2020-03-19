@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'Science Gothic';
   src: url('../fonts/ScienceGothicVF.ttf');
+  font-display: block;
+  // font-display: swap;
+  // font-display: fallback;
+  // font-display: optional;
 }
 
 body,
