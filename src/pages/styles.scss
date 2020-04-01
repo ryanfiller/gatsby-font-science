@@ -36,7 +36,7 @@ html {
   color: white;
 
   h1 {
-    font-family: 'Science Gothic';
+    // font-family: 'Science Gothic';
     text-align: center;
     margin: 0;
     font-size: calc(1rem + .75vw);
@@ -44,19 +44,19 @@ html {
     width: 25%;
 
     &.optional {
-      font-family: 'Science Gothic Optional';
+      font-family: 'Science Gothic Optional', none;
     }
 
     &.fallback {
-      font-family: 'Science Gothic Fallback';
+      font-family: 'Science Gothic Fallback', none;
     }
 
     &.swap {
-      font-family: 'Science Gothic Swap';
+      font-family: 'Science Gothic Swap', none;
     }
 
     &.block {
-      font-family: 'Science Gothic Block';
+      font-family: 'Science Gothic Block', none;
     }
 
     span {
