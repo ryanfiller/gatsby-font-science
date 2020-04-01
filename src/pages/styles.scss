@@ -40,8 +40,9 @@ html {
     font-family: 'Science Gothic';
     text-align: center;
     margin: 0;
-    font-size: calc(1.5rem + 1.5vw + 1vh);
+    font-size: calc(1rem + .75vw);
     padding: 1rem;
+    width: 25%;
 
     &.optional {
       font-family: 'Science Gothic Optional';
