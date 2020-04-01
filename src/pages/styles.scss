@@ -1,6 +1,25 @@
 @font-face {
-  font-family: 'Science Gothic';
+  font-family: 'Science Gothic Optional';
   src: url('../fonts/ScienceGothicVF.ttf');
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'Science Gothic Fallback';
+  src: url('../fonts/ScienceGothicVF.ttf');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Science Gothic Swap';
+  src: url('../fonts/ScienceGothicVF.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Science Gothic Block';
+  src: url('../fonts/ScienceGothicVF.ttf');
+  font-display: block;
 }
 
 body,
@@ -21,7 +40,24 @@ html {
     font-family: 'Science Gothic';
     text-align: center;
     margin: 0;
-    font-size: calc(1.5rem + 2.5vw + 2vh);
+    font-size: calc(1.5rem + 1.5vw + 1vh);
+    padding: 1rem;
+
+    &.optional {
+      font-family: 'Science Gothic Optional';
+    }
+
+    &.fallback {
+      font-family: 'Science Gothic Fallback';
+    }
+
+    &.swap {
+      font-family: 'Science Gothic Swap';
+    }
+
+    &.block {
+      font-family: 'Science Gothic Block';
+    }
 
     span {
       font-size: 1em;

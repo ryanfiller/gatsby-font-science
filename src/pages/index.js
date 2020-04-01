@@ -14,17 +14,52 @@ const IndexPage = () => (
         type='font/ttf'
       />
     </Helmet>
-    <h1>
-      <span>
-        Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-      </span>
-      <span>
-        0123456789
-      </span>
-      <span>
-        !@#$%&*_+-=?[]{}()
-      </span>
-    </h1>
+    <div style={{display: 'flex'}}>
+      <h1 className="optional">
+        <span>
+          Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+        </span>
+        <span>
+          0123456789
+        </span>
+        <span>
+          !@#$%&*_+-=?[]{}()
+        </span>
+      </h1>
+      <h1 className="fallback">
+        <span>
+          Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+        </span>
+        <span>
+          0123456789
+        </span>
+        <span>
+          !@#$%&*_+-=?[]{}()
+        </span>
+      </h1>
+      <h1 className="swap">
+        <span>
+          Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+        </span>
+        <span>
+          0123456789
+        </span>
+        <span>
+          !@#$%&*_+-=?[]{}()
+        </span>
+      </h1>
+      <h1 className="block">
+        <span>
+          Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+        </span>
+        <span>
+          0123456789
+        </span>
+        <span>
+          !@#$%&*_+-=?[]{}()
+        </span>
+      </h1>
+    </div>
   </>
 )
 
